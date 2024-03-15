@@ -15,3 +15,8 @@ Model evaluation hinges on the AUC ROC metric, with a benchmark established at a
 1. The critical aspect of this project is a meticulous Exploratory Data Analysis (EDA) and Feature Engineering (FE). Many crucial features are buried inside seemingly unimportant/ unrelated information.
 2. As expected, the best performing model is an Learning to Rank (LTR) algorithm (LGBM - LambdaRank). However, regular classification method such as CatBoost is able to perform with a comparable performance.
 3. Despite showing similar performance results, both models focuses on very different feature sets. LGBM - LambdaRank focuses more on text-based features while CatBoost seems to prefer more subtle features such as image location and dimension.
+
+## Final Model Summary
+
+1. Final model used to produce prediction on the test set is LGBM - LambdaRank model due to accuracy and speed of training/ inference
+2. Final model managed to achieve 0.88-0.9 in AUC score on cross-validation sets

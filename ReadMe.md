@@ -21,6 +21,9 @@ Model evaluation hinges on the AUC ROC metric, with a benchmark established at a
 1. Final model used to produce prediction on the test set is LGBM - LambdaRank model due to accuracy and speed of training/ inference
 2. Final model managed to achieve 0.88-0.9 in AUC score on cross-validation sets
 
-## AUC Graph of Final Model
+### AUC Graph - [LGBM - LambdaRank]
 ![AUC Graph](assets/final_auc_roc.png)
+
+### Feature Importance - [LGBM - LambdaRank]
+![AUC Graph](assets/feature_importance.png)
 

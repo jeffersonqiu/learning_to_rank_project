@@ -1,2 +1,5 @@
 ahrefs_env/
 data/
+.DS_Store
+src/.DS_Store
+notebooks/.DS_Store

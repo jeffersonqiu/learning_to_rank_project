@@ -1,7 +1,5 @@
 # Introduction
 
-This document is a part of my application for the Data Scientist role at Ahrefs. 
-
 ## Objective
 
 The project's goal is to construct an algorithm that effectively classifies images as relevant or irrelevant to specified queries.
